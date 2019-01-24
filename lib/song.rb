@@ -14,7 +14,7 @@ class Song
     song = self.new
 
 require 'pry' 
-    
+
     song.name = name
     song
   end
