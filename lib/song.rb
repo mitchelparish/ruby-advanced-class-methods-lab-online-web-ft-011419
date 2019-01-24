@@ -36,10 +36,17 @@ class Song
   end
 
   def self.new_from_filename(name)
-
+    song = self.new 
+    song.name = 
+    song.artist_name =
+    song
   end
 
   def self.create_from_filename
+    song = self.new 
+    song.name = 
+    song.artist_name = 
+    song.save     
   end
 
   def self.destroy_all
