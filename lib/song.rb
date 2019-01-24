@@ -8,6 +8,12 @@ class Song
     c
   end 
 
+  def self.new_by_name(name)
+    name = self.new
+    name.save
+    name
+  end
+  
 
 
 
@@ -23,9 +29,5 @@ class Song
   def save
     self.class.all << self
   end
-
-  def find_or_create_by_name(name)
-  end
-
 
 end
